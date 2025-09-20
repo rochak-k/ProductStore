@@ -32,6 +32,7 @@ const ProductCard = ({ product }) => {
       transition="all 0.3s"
       _hover={{ transform: "translateY(-5px)", shadow: "xl" }}
       mx="8px"
+      my="4px"
     >
       <Image
         src={product.image}
